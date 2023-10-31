@@ -1,0 +1,70 @@
+
+ please keep mmagallo@debian.org in the Cc:
+
+ I'm seeking the opinion of -legal regarding an issue I've been
+ discussing on another mailing list.  It pertains the YAST license as
+ found in:
+
+          ftp://ftp.suse.com/pub/suse/i386/8.1/COPYRIGHT.yast
+
+ To make this clear from the start: I do not intent to package a program
+ under this license.  I'm interested in this issue merely as a) Debian
+ Developer trying to gain some insight into a particular aspect of
+ copyright/contractual law; b) Application Manager who presents
+ copyright-related questions to new maintainers.  If someone considers
+ this discussion off-topic for this list, I apologize beforehand, *I*
+ don't think that's the case.
+
+ From the English translation of license (original is in German):
+
+    3. Dissemination
+       It is forbidden to reproduce or distribute data carriers which
+       have been reproduced without authorisation for payment without
+       the prior written consent of SuSE Linux AG or SuSE Linux.
+       Distribution of the YaST 2 programme, its sources, whether
+       amended or unamended in full or in part thereof, and the works
+       derived thereof for a charge require the prior written consent of
+       SuSE Linux AG.
+
+       All programmes derived from YaST 2, and all works derived thereof
+       as a whole or parts thereof may only be disseminated with the
+       amended sources and this licence in accordance with 2b).  Making
+       YaST 2 or works derived thereof available free of charge together
+       with SuSE Linux on FTP Servers and mailboxes is permitted if the
+       licences on the software are observed.
+
+ The point of contention is whether or not redistribution of SuSE Linux
+ CDs is permitted by this license.  My reading of the above is as
+ follows: this bit stablishes two modes of redistribution, for charge
+ and free of charge.  If you want to redistribute the program for
+ charge, you have to get permission from SuSE Linux.  If you want to
+ redistribute the software free of charge, you have two options: FTP
+ servers or "mailboxes".  Any other option is forbidden.  Ergo, you
+ can't redistribute copies of the SuSE Linux demo CDs (the ones with
+ mostly free stuff -- modulo things like Acrobat Reader and its kind).
+
+ Does this interpretation sound right to you?
+
+ [ the "mailboxes" thing is something that isn't clear to me either.
+   The original in German says "Mailboxen" IIRC, which according to the
+   dictionary sitting near my desk is not a German word.  They _might_
+   mean AOL-style distribution. ]
+
+ During the discussion, another argument _for_ the redistribution of CDs
+ has surfaced.  The other partner in this argument holds that in
+ contractual law there's a principle called "Contrario Senso" (rough
+ translation from Latin: opposed sense, contrary sense) which states
+ that if an action is explicitly forbidden by a contract, the opposite
+ action is implicitly permitted.  Even if this was to hold true for
+ software licenses, I still think it's irrelevant for this case, but my
+ question is precisely that: does such a principle hold true for
+ software licenses?  How do you stablish what the "opposite action" is?
+ Do you know of _any_ cases (relevant to software licensing) where such
+ a principle has been applied?
+
+ Thanks for your time,
+
+ Marcelo
+
+
+SRC:https://lists.debian.org/debian-legal/2002/11/msg00177.html
